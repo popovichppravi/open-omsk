@@ -1,0 +1,106 @@
+
+*::-webkit-input-placeholder {
+	color: #666;
+}
+*:-moz-placeholder {
+	color: #666;
+}
+*::-moz-placeholder {
+	color: #666;
+}
+*:-ms-input-placeholder {
+	color: #666;
+}
+
+body
+{
+	background: #EFF5FA;
+}
+
+body,
+.info_icons_block span
+{
+color: #33495F;
+}
+
+.top_menu a:hover,
+.top_menu li.active a
+{
+		
+	background: #3F6B8C;
+}
+
+.main_sort_block,
+.sidebar_menu ul li a:hover
+{
+	background: #EDEDED;
+}
+
+.main_sort_block ul li.active a,
+.open_date_list .rating li
+{
+	color: #F06E49; 
+}
+
+.page::after 
+{
+	background: #C6C6C6;
+}
+
+.open_date_list .top_info_item,
+.open_date_list .top_info_item a,
+.open_date_list .bottom_info_item a
+{
+	color: #878787;
+}
+
+.sidebar_menu .title,
+footer,
+footer a,
+#toggle_menu,
+.top_menu a
+{
+	color: #fff;
+}
+
+.sidebar_menu .title,
+footer,
+.mobile_menu,
+.top_menu a,
+.top_menu,
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus
+{
+  background: #5996CD;	
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus
+{
+	border-color: #5996CD;	
+}
+
+.top_wrap
+{
+	background: #fff;
+}
+
+@media only screen and (max-width : 767px) {
+	.top_menu
+{
+	background: #fff;
+}
+
+.top_menu a
+{
+	color: #5996CD;
+	background: #fff;
+	border-color: #5996CD;
+}
+
+.top_menu a:hover,
+.top_menu li.active a
+{
+		
+	background: #3F6B8C;
+	color: #fff;
+}
+	}
