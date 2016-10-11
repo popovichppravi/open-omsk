@@ -49,6 +49,22 @@ button
     align-items: center;
 }
 
+i,
+span
+{
+vertical-align: middle;
+}
+
+.table_cell {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.cell_block {
+	display: table-cell;
+  	vertical-align: middle;
+	float: none;
+}
 
 
 /*----HEADER----*/
@@ -227,6 +243,7 @@ background: #fff;
 max-width: 1170px;
 margin: 0 auto;
 height: 100%;
+padding-bottom: 50px;
 }
 
 .page
@@ -315,14 +332,14 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 {
 	font-family: "RobotoLight";
 }
-.open_date_list .info_icons_block i,
+.info_icons_block i,
 .open_date_list .top_info_item a i,
 .open_date_list .bottom_info_item a i
 {
 margin-right: 5px;
 }
 
-.open_date_list .info_icons_block span
+.info_icons_block span
 {
 	font-family: "RobotoRegular", sans-serif;
 	margin-right: 15px;
@@ -337,6 +354,70 @@ margin-right: 5px;
 {
 margin-bottom: 5px;
 }
+
+.title_block h1
+{
+	margin-bottom: 10px;
+}
+
+.left_i i
+{
+margin-right: 10px;
+}
+
+.bg_block
+{
+	padding: 10px 0;
+	margin: 10px 0 25px 0;
+}
+
+.bg_block p,
+.bg_block h2
+{
+margin: 0;
+padding: 0;
+}
+
+.bg_block h2
+{
+line-height: 1;
+}
+
+.bg_block .row div
+{
+display: inline-block;
+vertical-align: middle;
+}
+
+/*----Коментарии----*/
+.comments_list
+{
+	margin: 50px 0 25px 0;
+}
+.comment_top
+{
+	font-size: 16px;
+}
+
+.comment_top p
+{
+	font-size: 14px;
+	padding: 0;
+	margin: 10px 0;
+}
+
+.comment
+{
+	border-bottom: 1px solid;
+	margin-bottom: 25px;
+}
+
+.comment .text-right
+{
+font-family: "RobotoLight";	
+}
+/*-----------------*/
+
 
 /*---//CONTENT---*/
 
@@ -385,6 +466,18 @@ line-height: 1.2;
 .sidebar_menu ul li span
 {
 	display: table-cell;
+}
+
+.sidebar_block
+{
+	margin-bottom: 25px;
+}
+
+.sidebar_block .title
+{
+	font-family: "RobotoMedium";
+	font-size: 16px;
+	margin-bottom: 5px;
 }
 
 
