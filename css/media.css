@@ -15,7 +15,8 @@
 	padding: 10px 15px;
 }
 
-.open_date_list a.title_item
+.open_date_list a.title_item,
+.search_list a.title_item
 {
 	font-size: 20px;
 }
@@ -42,6 +43,11 @@ display: none;
 	h1
 	{
 		font-size: 30px;
+	}
+
+	.search_list a.title_item
+	{
+		font-size: 18px;
 	}
 
 	.top_wrap
@@ -129,6 +135,12 @@ font-size: 14px;
 margin-left: 0;
 }
 
+.dates p,
+.middle_info_item p
+{
+font-size: 12px;
+}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -137,6 +149,11 @@ margin-left: 0;
 .bg_block p
 {
 font-size: 12px;
+}
+
+.dates p
+{
+font-size: 10px;
 }
 
 .download_top_block ul li

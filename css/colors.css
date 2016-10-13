@@ -31,7 +31,8 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
     background-color: #f6f6f6;
 }
 
-.comment
+.comment,
+.search_list .item
 {
 	border-color: #9D9D9C;
 }
@@ -52,7 +53,8 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 }
 
 .main_sort_block ul li.active a,
-.rating li
+.rating li,
+.orng
 {
 	color: #F06E49; 
 }
@@ -68,7 +70,8 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 .bg_block p,
 .info_icons_block i,
 .dataTables_scroll thead th div::before,
-.dataTables_scroll thead th div i
+.dataTables_scroll thead th div i,
+.search_list .dates p
 {
 	color: #878787;
 }

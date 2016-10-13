@@ -374,7 +374,8 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 	margin-bottom: 40px;
 }
 
-.open_date_list a.title_item
+.open_date_list a.title_item,
+.search_list a.title_item 
 {
 	font-size: 25px;
 	line-height: 1.2;
@@ -427,7 +428,8 @@ margin-right: 5px;
 	margin-right: 15px;
 }
 
-.open_date_list .top_info_item p
+.open_date_list .top_info_item p,
+.search_list .dates p
 {
 	margin-bottom: 0;
 }
@@ -601,6 +603,35 @@ font-family: FontAwesome;
 {
 	min-width: 240px !important;
 	position: relative;
+}
+
+/*ПОИСК*/
+
+.search_list
+{
+	margin: 25px 0;
+}
+
+.search_list .info_icons_block
+{
+	margin-bottom: 5px;
+}
+
+.search_list a.title_item
+{
+	margin-bottom: 5px;
+}
+
+.search_list .dates
+{
+	margin-top: 5px;
+}
+
+.search_list .item
+{
+	padding-bottom: 15px;
+	margin-bottom: 25px;
+	border-bottom: 1px solid;
 }
 
 
