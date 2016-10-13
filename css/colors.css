@@ -47,6 +47,7 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 
 .main_sort_block,
 .sidebar_menu ul li a:hover,
+.sidebar_menu ul li.active a,
 .bg_block
 {
 	background: #EDEDED;
