@@ -3,7 +3,10 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
-
+.news a.title_item 
+{
+	font-size: 18px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -20,6 +23,7 @@
 {
 	font-size: 20px;
 }
+
 
 .sidebar_menu .title,
 .sidebar_menu ul li a
@@ -45,7 +49,13 @@ display: none;
 		font-size: 30px;
 	}
 
-	.search_list a.title_item
+	.news .date
+	{
+		font-size: 12px;
+	}
+
+	.search_list a.title_item,
+	.news a.title_item 
 	{
 		font-size: 18px;
 	}
@@ -149,6 +159,17 @@ font-size: 12px;
 .bg_block p
 {
 font-size: 12px;
+}
+
+.news .date
+	{
+		font-size: 10px;
+	}
+
+
+.news a.title_item 
+{
+	font-size: 16px;
 }
 
 .dates p

@@ -375,9 +375,17 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 .open_date_list a.title_item,
-.search_list a.title_item 
+.search_list a.title_item
 {
 	font-size: 25px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.news a.title_item 
+{
+	font-size: 22px;
 	line-height: 1.2;
 	margin-bottom: 10px;
 	display: block;
@@ -627,7 +635,8 @@ font-family: FontAwesome;
 	margin-top: 5px;
 }
 
-.search_list .item
+.search_list .item,
+.news .item
 {
 	padding-bottom: 15px;
 	margin-bottom: 25px;
