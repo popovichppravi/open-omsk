@@ -26,6 +26,23 @@ body {
 	position: relative;
 }
 
+/*------------TABLE----------*/
+table.tbl { 
+    width: 100%; 
+    border-spacing: 0; 
+    border-collapse: collapse; 
+   }
+   table.tbl tr:nth-child(2n+1) {
+    background: #f0f0f0; 
+   } 
+
+   table.tbl td
+   {
+    padding: 10px 15px;
+   }
+
+/*---------------------------*/
+
 .btn
 {
 	text-decoration: none;
@@ -649,6 +666,33 @@ line-height: 1.2;
 	margin-bottom: 5px;
 }
 
+.contacts_sidebar p
+{
+line-height: 1;
+margin-bottom: 5px;
+}
+
+.contacts_sidebar i
+{
+	text-align: center;
+	width: 30px;
+}
+
+.sidebar_block .download_top_block li
+{
+margin: 0 5px;
+}
+
+.sidebar_block .download_top_block
+{
+	padding: 0 5px;
+}
+.sidebar_block .download_top_block li,
+.sidebar_block .download_top_block a,
+.sidebar_block .download_top_block span
+{
+	font-size: 14px;
+}
 
 /*---//SIDEBAR RIGHT---*/
 
