@@ -643,6 +643,22 @@ font-family: FontAwesome;
 	border-bottom: 1px solid;
 }
 
+.img_info p,
+.img_info i
+{
+	margin: 0;
+	padding: 0;
+}
+
+.img_info
+{
+	margin: 0 0 15px 0;
+}
+
+.form_btns button
+{
+	margin-left: 15px;
+}
 
 
 /*---//CONTENT---*/

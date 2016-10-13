@@ -3,6 +3,8 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
+	img {max-width: 990px;}
+
 .news a.title_item 
 {
 	font-size: 18px;
@@ -11,6 +13,8 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+
+	img {max-width: 760px;}
 
 .top_menu a
 {
@@ -44,9 +48,16 @@ display: none;
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
+
+	img {max-width: 480px;}
 	h1
 	{
 		font-size: 30px;
+	}
+
+	h2
+	{
+		font-size: 25px;
 	}
 
 	.news .date
@@ -156,6 +167,8 @@ font-size: 12px;
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+	img {max-width: 400px;}
+
 .bg_block p
 {
 font-size: 12px;
@@ -191,6 +204,11 @@ font-size: 10px;
 	h1
 	{
 		font-size: 25px;
+	}
+
+	h2
+	{
+		font-size: 20px;
 	}
 
 	.top_logo_txt
@@ -231,9 +249,21 @@ font-size: 10px;
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
+	img {max-width: 300px;}
+
 	h1
 	{
 		font-size: 20px;
+	}
+
+	h2
+	{
+		font-size: 18px;
+	}
+
+	h3
+	{
+		font-size: 16px;
 	}
 
 	.rating i
