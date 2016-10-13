@@ -1225,7 +1225,7 @@ h6 .small,
 h1,
 .h1
 {
-  margin-top: 30px;
+  margin-top: 25px;
   margin-bottom: 25px; 
 }
 
@@ -6003,7 +6003,6 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6018,7 +6017,7 @@ button.close {
   word-break: normal;
   word-spacing: normal;
   word-wrap: normal;
-  font-size: 12px;
+  font-size: 14px;
   opacity: 0;
   filter: alpha(opacity=0);
 }
@@ -6043,12 +6042,13 @@ button.close {
   padding: 0 5px;
 }
 .tooltip-inner {
-  max-width: 200px;
+  max-width: 400px;
   padding: 3px 8px;
-  color: #ffffff;
-  text-align: center;
-  background-color: #000000;
+  color: #33495F;
+  text-align: left;
+  background-color: #fff;
   border-radius: 4px;
+  border: 1px solid #c1c1c1;
 }
 .tooltip-arrow {
   position: absolute;
@@ -6097,7 +6097,7 @@ button.close {
   left: 50%;
   margin-left: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #000000;
+  border-bottom-color: #c1c1c1;
 }
 .tooltip.bottom-left .tooltip-arrow {
   top: 0;

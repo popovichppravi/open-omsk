@@ -106,11 +106,50 @@ font-size: 13px;
 {
 	display: none;
 }
+
+.download_top_block ul li
+{
+	font-size: 14px;
+	margin: 0 10px;
+}
+
+.download_top_block ul li a
+{
+font-size: 14px;
+}
+
+.download_top_block ul li:first-child
+{
+	/*margin-bottom: 15px;*/
+	display: none;
+}
+
+.download_top_block ul li:nth-child(2)
+{
+margin-left: 0;
+}
+
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+.bg_block p
+{
+font-size: 12px;
+}
+
+.download_top_block ul li
+{
+	font-size: 12px;
+	margin: 0 5px;
+}
+
+.download_top_block ul li a
+{
+	margin-right: 3px;
+	font-size: 12px;
+}
 	h1
 	{
 		font-size: 25px;

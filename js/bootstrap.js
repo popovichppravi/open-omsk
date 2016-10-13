@@ -2377,4 +2377,8 @@ if (typeof jQuery === 'undefined') {
     }
   })
 
+  $('[data-toggle="tooltip"]').tooltip(
+{ trigger: 'click hover', placement: 'bottom auto', delay: {show: 50, hide: 200}}
+    );
+
 }(jQuery);

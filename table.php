@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Комментарии к набору данных</title>
+    <title>Летние детские площадки с вожатыми</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -92,11 +92,26 @@
   <!--//HEADER-->
 
   <!--CONTENT-->
-<article class="content">
+<article class="content no_sidebar">
   <div class="container">
+
+<!--TOP PANEL-->
+    <div class="top_panel">
+      <div class="table_cell">
+        <div class="cell_block left_i">
+        <a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i><span>Спорт и молодежная политика</span></a>
+        </div> 
+        <div class="cell_block text-right">
+          <a href="#" class="btn btn-default">Открыть карту</a>
+          <a href="#" class="btn btn-default">Паспорт набора</a>
+        </div>        
+      </div>
+    </div>
+<!--//TOP PANEL-->
+    
     <div class="title_block">
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-xs-12">
           <h1>Летние детские площадки с вожатыми</h1>
         </div>
       </div>
@@ -109,7 +124,16 @@
               </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
-              <a href="#" class="left_i"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>вернуться к набору</a>
+              <div class="rating">
+                <ul>
+                  <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-star-half-o" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                </ul>
+                <span>(4)</span>
+              </div>
             </div>
           </div>
     </div>
@@ -120,7 +144,16 @@
     <div class="container">
       <div class="table_cell">
         <div class="cell_block">
-        <h2>Комментарии к набору данных (2)</h2>        
+        <!--TOP DOWNLOAD BLOCK-->
+            <div class="download_top_block">
+              <ul>
+                  <li>Скачать:</li>
+                  <li><a href="#">csv</a><span>(2Кб)</span></li>
+                  <li><a href="#">xls</a><span>(12 Кб)</span></li>
+                  <li><a href="#">zip</a><span>(1 Кб)</span></li>
+              </ul>
+            </div>
+        <!--//TOP DOWNLOAD BLOCK-->       
         </div>
         <div class="text-right cell_block ">
           <p>Обновлено: 16 мая 2016 г.<br />Опубликовано: 15 мая 2014 г.</p>
@@ -129,80 +162,23 @@
     </div>
   </div>
   <!--//BG BLOCK-->
+ <div class="container"> 
+   <p><a href="#" class="left_i"><i class="fa fa-university" aria-hidden="true"></i><span>Департамент по делам молодежи, физической культуре и спорту</span></a></p>
+   <p>В наборе дано местоположение всех детских площадок, где летом 2016 года во второй половине дня с детьми бесплатно занимаются специально подготовленные вожатые педагогических отрядов и волонтеры в рамках программы летней занятости.</p>
+   <div class="tags_top"><p><b>Ключевые слова: </b><span>Лето; дети; вожатые; педагогический отряд; педотряд; подвижные игры; эстафеты; досуг; развлечения; бесплатно; вторая половина дня; летняя занятость; подростки; </span><span id="top_tags_all" class="cont_hidden">Лето; дети; вожатые; педагогический отряд; педотряд; подвижные игры; эстафеты; досуг; развлечения; бесплатно; вторая половина дня; летняя занятость; подростки;</span> <a href="#top_tags_all" class="show_cont left_i"><i class="fa fa-angle-down" aria-hidden="true"></i><span>показать всё</span></a></p></div>
+
+  </div>
   <br />
-  
 
 <div class="container">
   <div class="row">
     <!--CONTENT BLOCK-->
-    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 page" role="main">
-
-<!--COMMENTS FORM-->
-<form class="form-horizontal" role="form">
-  <div class="form-group">
-    <label for="inputEmail3" class="col-sm-4 control-label">Имя *</label>
-    <div class="col-sm-8">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Введите имя">
+    <div class="col-xs-12 page" role="main">
+     <? include 'ex_tbl.php';?>
+     <br />
+     <a href="#" class="left_i"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Комментировать (2)</span></a>
     </div>
-  </div>
-  <div class="form-group">
-    <label for="inputPassword3" class="col-sm-4 control-label">Комментарий *</label>
-    <div class="col-sm-8">
-     <textarea class="form-control" rows="6" placeholder="Введите текст сообщения"></textarea>
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-12 text-right">
-      <button type="submit" class="btn btn-default">Добавить комментарий</button>
-    </div>
-  </div>
-</form>
-<!--//COMMENTS FORM-->
-
-<!--COMMENTS LIST-->
-<div class="comments_list">
-  <div class="comment">
-    <div class="comment_top">
-      <div class="row">
-       <div class="col-xs-6 left_i"><i class="fa fa-user" aria-hidden="true"></i><span>Василий</span></div>
-        <div class="col-xs-6 text-right">15 мая 2016</div>
-      </div>
-      <p>Этот набор данных очень помог, когда я делал курсовую работу по информационным системам: я использовал его в своем приложении.</p>
-    </div>
-  </div>  
-
-    <div class="comment">
-    <div class="comment_top">
-      <div class="row">
-       <div class="col-xs-6 left_i"><i class="fa fa-user" aria-hidden="true"></i><span>Программист</span></div>
-        <div class="col-xs-6 text-right">15 мая 2016</div>
-      </div>
-      <p>Прошлогодняя версия набора была полнее. По каждой площадке публиковался набор инвентаря, который был в распоряжении вожатых. Сейчас все сильно упростили.</p>
-    </div>
-  </div> 
-</div>
-<!--//COMMENTS LIST-->
-       
-      </div>
     <!--//CONTENT BLOCK-->
-      
-    <!--RIGHT SIDEBAR-->
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-      <div id="sidebar_right" > 
-        <div class="sidebar_block">
-          <p>В наборе дано местоположение всех детских площадок, где летом 2016 года во второй половине дня с детьми бесплатно занимаются специально подготовленные вожатые педагогических отрядов и волонтеры в рамках программы летней занятости.</p>
-        </div>
-        <div class="sidebar_block">
-          <div class="title">Ключевые слова</div>
-          <p>Лето; дети; вожатые; педагогический отряд; педотряд; подвижные игры; эстафеты; досуг; развлечения; бесплатно; вторая половина дня; летняя занятость; подростки</p>
-        </div> 
-        <div class="sidebar_block">
-        <a href="#">Устаревшие версии набора (3)</a> 
-      </div>      
-      </div>
-    </div>
-    <!--//RIGHT SIDEBAR--> 
-
     </div>
   </div>
 </article>
@@ -223,10 +199,16 @@
   <!--//FOOTER-->
 
 
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
+    <!--TABLES-->
+<link rel="stylesheet" type="text/css" href="DataTables/datatables.css"/> 
+<script type="text/javascript" src="DataTables/datatables.js"></script>
+<!--//TABLES-->
         <script type="text/javascript" src="js/common.js"></script>
   </body>
 </html>

@@ -26,6 +26,13 @@ body {
 	position: relative;
 }
 
+.btn
+{
+	text-decoration: none;
+}
+
+
+
 .hidden {
 	display: none;
 }
@@ -251,6 +258,11 @@ padding-bottom: 50px;
 	position: relative;
 	margin-bottom: 25px;
 }
+.no_sidebar .page::after 
+{
+display: none;
+}
+
 .page::after 
 {
 	position: absolute;
@@ -259,6 +271,50 @@ padding-bottom: 50px;
 	height: 100%;
 	right: 0px;
 	top: 0;
+}
+
+.download_top_block ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.download_top_block ul li
+{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1;
+	margin: 0 15px;
+	font-size: 16px;
+	font-family: "RobotoLight";
+}
+
+.download_top_block ul li:first-child
+{
+	margin-left: 0;
+}
+
+.download_top_block ul li a
+{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: "RobotoRegular";
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;	
+}
+
+
+
+.top_panel
+{
+margin-top: 25px;	
+}
+
+.top_panel .text-right a
+{
+	margin-left: 20px;
 }
 
 
@@ -309,14 +365,23 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 	display: block;
 }
 
-.open_date_list .rating ul
+.rating ul
 {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	display: inline-block;
+	vertical-align: middle;
 }
 
-.open_date_list .rating li
+.rating span
+{
+display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;	
+}
+
+.rating li
 {
 	display: inline-block;
 	font-size: 18px;
@@ -362,13 +427,13 @@ margin-bottom: 5px;
 
 .left_i i
 {
-margin-right: 10px;
+margin-right: 5px;
 }
 
 .bg_block
 {
 	padding: 10px 0;
-	margin: 10px 0 25px 0;
+	margin: 10px 0 10px 0;
 }
 
 .bg_block p,
@@ -387,6 +452,16 @@ line-height: 1;
 {
 display: inline-block;
 vertical-align: middle;
+}
+
+.dataTables_scroll
+{
+	margin-bottom: 25px;
+}
+
+table thead th
+{
+	text-align: center;
 }
 
 /*----Коментарии----*/
@@ -417,6 +492,100 @@ vertical-align: middle;
 font-family: "RobotoLight";	
 }
 /*-----------------*/
+
+.cont_hidden
+{
+	width: 0;
+	height: 0;
+	position: absolute;
+	visibility: hidden;
+}
+.visible_cont
+{
+	position: relative;
+	width: auto;
+	height: auto;
+	visibility: visible;
+}
+
+.show_cont
+{
+	margin-left: 15px;
+}
+
+.dataTables_filter input[type="search"]
+{
+	min-width: 250px;
+}
+
+.dataTables_scroll input.input-sm
+{
+	width: 220px;
+} 
+
+.dataTables_scroll .input-sm
+{
+	position: relative;
+}
+.dataTables_scroll thead th
+{
+outline: none;	
+}
+.dataTables_scroll thead th div
+{
+display: inline-block;
+position: relative;
+outline: none;
+}
+
+.dataTables_scroll thead th input
+{
+	background: transparent;
+	padding-left: 25px;
+	padding-right: 25px;
+
+}
+
+.dataTables_scroll thead th div::before,
+.dataTables_scroll thead th div i
+{
+	content: "\f002";
+	position: absolute;
+display: inline-block;
+width: 20px;
+height: 20px;
+font-family: FontAwesome;
+ font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.dataTables_scroll thead th div i
+{
+	display: none;
+	right: 5px;
+	top: 8px;
+	line-height: 1;
+	z-index: 10000;
+	cursor: pointer;
+}
+
+.dataTables_scroll thead th div::before
+{
+	content: "\f002";	
+ 	left: 5px;
+ 	top: 5px;
+}
+
+
+#example td, 
+#example th
+{
+	min-width: 240px !important;
+	position: relative;
+}
+
 
 
 /*---//CONTENT---*/

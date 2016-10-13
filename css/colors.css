@@ -23,6 +23,14 @@ body,
 color: #33495F;
 }
 
+td.highlight {
+    background-color: whitesmoke !important;
+}
+
+table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
+    background-color: #f6f6f6;
+}
+
 .comment
 {
 	border-color: #9D9D9C;
@@ -44,7 +52,7 @@ color: #33495F;
 }
 
 .main_sort_block ul li.active a,
-.open_date_list .rating li
+.rating li
 {
 	color: #F06E49; 
 }
@@ -58,7 +66,9 @@ color: #33495F;
 .open_date_list .top_info_item a,
 .open_date_list .bottom_info_item a,
 .bg_block p,
-.info_icons_block i
+.info_icons_block i,
+.dataTables_scroll thead th div::before,
+.dataTables_scroll thead th div i
 {
 	color: #878787;
 }
